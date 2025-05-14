@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "91a7f030-6019-4ddf-a2e7-43c3c17e46d3")
 	(paper "A4")
+	(title_block
+		(title "UPDI/UART Switch")
+		(date "2025-05-13")
+		(rev "V2")
+		(company "Designed by Saheen palayi | Super Fablab Kerala")
+	)
 	(lib_symbols
 		(symbol "fab:Conn_PinHeader_FTDI_1x06_P2.54mm_Horizontal_SMD"
 			(exclude_from_sim no)
@@ -1396,27 +1402,115 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 55.88 96.52)
+		(end 135.89 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12aa7eff-514a-40e2-903d-506b84a11118)
+	)
+	(rectangle
+		(start 156.21 40.64)
+		(end 232.41 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 765a1554-3377-4e73-adb1-e31f7678fccd)
+	)
+	(rectangle
+		(start 55.88 40.64)
+		(end 135.89 88.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7ab3ef7d-c202-4a36-b818-80efc427b2b7)
+	)
+	(rectangle
+		(start 156.21 96.52)
+		(end 232.41 143.51)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9637e866-7799-4860-ab8d-da2a8e52d0f4)
+	)
+	(text "6pin FTDI pin for the FTDI converter\n"
+		(exclude_from_sim no)
+		(at 97.282 85.852 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "496ccfec-0d72-4723-adc3-d6061ba82e5a")
+	)
+	(text "UPDI/UART Selcetion Switch"
+		(exclude_from_sim no)
+		(at 195.834 137.668 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94aea338-e833-42f6-8b11-6d6c9d52e249")
+	)
+	(text "6pin FTDI header for Target board\n"
+		(exclude_from_sim no)
+		(at 193.802 85.344 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9b3c918e-c94a-48a2-a1d4-96ebc4af9f90")
+	)
+	(text "FTDI to UPDI Circuit"
+		(exclude_from_sim no)
+		(at 92.202 139.954 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a87a2330-ecef-4673-a667-65e9866b01e9")
+	)
 	(junction
-		(at 49.53 76.2)
+		(at 90.17 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "750616ec-52f9-470f-96c8-cbc204cd2405")
 	)
 	(no_connect
-		(at 81.28 25.4)
+		(at 189.23 55.88)
 		(uuid "04a6837d-5ada-404a-a926-3d9674bdbef7")
 	)
 	(no_connect
-		(at 33.02 25.4)
+		(at 95.25 55.88)
 		(uuid "e4fd2ccf-0687-4b3b-8589-ef2bd7ca5c06")
 	)
 	(no_connect
-		(at 33.02 35.56)
+		(at 95.25 66.04)
 		(uuid "feaf2ed2-e991-43f3-8e4d-e64cbbae5a7b")
 	)
 	(wire
 		(pts
-			(xy 38.1 30.48) (xy 33.02 30.48)
+			(xy 100.33 60.96) (xy 95.25 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1426,7 +1520,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 27.94) (xy 81.28 27.94)
+			(xy 180.34 58.42) (xy 189.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1436,7 +1530,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 78.74 38.1)
+			(xy 189.23 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1446,7 +1540,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 76.2) (xy 49.53 76.2)
+			(xy 87.63 119.38) (xy 90.17 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1456,7 +1550,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 19.05) (xy 35.56 33.02)
+			(xy 97.79 49.53) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1466,7 +1560,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.105 33.02) (xy 78.105 22.86)
+			(xy 186.055 63.5) (xy 186.055 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1476,7 +1570,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 66.04) (xy 102.87 66.04)
+			(xy 203.2 120.65) (xy 199.39 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1486,7 +1580,7 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 38.1) (xy 34.29 41.91)
+			(xy 96.52 68.58) (xy 96.52 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1496,7 +1590,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 35.56) (xy 81.28 35.56)
+			(xy 179.07 66.04) (xy 189.23 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1506,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 85.09) (xy 62.23 85.09)
+			(xy 105.41 128.27) (xy 102.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1516,7 +1610,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 34.29 38.1)
+			(xy 95.25 68.58) (xy 96.52 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1526,7 +1620,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 38.1) (xy 78.74 43.18)
+			(xy 186.69 68.58) (xy 186.69 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1536,7 +1630,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 85.09) (xy 49.53 85.09)
+			(xy 92.71 128.27) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1546,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 76.2) (xy 33.02 76.2)
+			(xy 80.01 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1556,7 +1650,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 27.94) (xy 33.02 27.94)
+			(xy 100.33 58.42) (xy 95.25 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1566,7 +1660,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 30.48) (xy 81.28 30.48)
+			(xy 180.34 60.96) (xy 189.23 60.96)
 		)
 		(stroke
 			(width 0)
@@ -1576,7 +1670,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 33.02) (xy 78.105 33.02)
+			(xy 189.23 63.5) (xy 186.055 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1586,7 +1680,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 64.77 76.2)
+			(xy 90.17 119.38) (xy 105.41 119.38)
 		)
 		(stroke
 			(width 0)
@@ -1596,7 +1690,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 71.12) (xy 102.87 71.12)
+			(xy 203.2 125.73) (xy 199.39 125.73)
 		)
 		(stroke
 			(width 0)
@@ -1606,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 33.02) (xy 35.56 33.02)
+			(xy 95.25 63.5) (xy 97.79 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1616,7 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 76.2) (xy 49.53 85.09)
+			(xy 90.17 119.38) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1626,7 +1720,7 @@
 	)
 	(global_label "UPDI-RX"
 		(shape input)
-		(at 106.68 66.04 0)
+		(at 203.2 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1636,7 +1730,7 @@
 		)
 		(uuid "15f2e566-1a49-47e6-8a90-8956719399e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.1924 66.04 0)
+			(at 214.7124 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1648,7 +1742,7 @@
 	)
 	(global_label "T-RX"
 		(shape input)
-		(at 72.39 27.94 180)
+		(at 180.34 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1658,7 +1752,7 @@
 		)
 		(uuid "25db0215-6b0f-42c9-bb57-71c198448d2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.3853 27.94 0)
+			(at 172.3353 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1670,7 +1764,7 @@
 	)
 	(global_label "T-RX"
 		(shape input)
-		(at 106.68 71.12 0)
+		(at 203.2 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1680,7 +1774,7 @@
 		)
 		(uuid "466097b3-b645-4279-85f0-fb1c3af09e50")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.6847 71.12 0)
+			(at 211.2047 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1692,7 +1786,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 38.1 27.94 0)
+		(at 100.33 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1702,7 +1796,7 @@
 		)
 		(uuid "4727ae34-61ba-4215-8551-31120a968196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.5647 27.94 0)
+			(at 105.7947 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1714,7 +1808,7 @@
 	)
 	(global_label "UPDI"
 		(shape input)
-		(at 71.12 35.56 180)
+		(at 179.07 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1724,7 +1818,7 @@
 		)
 		(uuid "47defa98-f3c3-4645-8221-ec9d0a456ef6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.6595 35.56 0)
+			(at 171.6095 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1830,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 38.1 30.48 0)
+		(at 100.33 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1746,7 +1840,7 @@
 		)
 		(uuid "8286b02a-d162-4d68-a2fc-41090a9d3a09")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 43.2623 30.48 0)
+			(at 105.4923 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +1852,7 @@
 	)
 	(global_label "UPDI"
 		(shape input)
-		(at 64.77 85.09 0)
+		(at 105.41 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1768,7 +1862,7 @@
 		)
 		(uuid "944c1f8e-d8a6-487f-b0ca-60ca2bcc8b26")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2305 85.09 0)
+			(at 112.8705 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1780,7 +1874,7 @@
 	)
 	(global_label "UPDI-RX"
 		(shape input)
-		(at 64.77 76.2 0)
+		(at 105.41 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1790,7 +1884,7 @@
 		)
 		(uuid "b155066d-617b-40d9-a309-e4cfef1cdfd2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2824 76.2 0)
+			(at 116.9224 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1896,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 72.39 30.48 180)
+		(at 180.34 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1812,7 +1906,7 @@
 		)
 		(uuid "b1aa0e9a-2a4c-461b-a010-cdfee31c1e6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.2277 30.48 0)
+			(at 175.1777 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1918,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 33.02 76.2 180)
+		(at 73.66 119.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1834,7 +1928,7 @@
 		)
 		(uuid "d83e226f-3914-4b45-96e0-617726d161ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.8577 76.2 0)
+			(at 68.4977 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1846,7 +1940,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 92.71 68.58 180)
+		(at 189.23 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1856,7 +1950,7 @@
 		)
 		(uuid "dea92913-b857-4c9e-98e8-58c1fbb55bc9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 87.2453 68.58 0)
+			(at 183.7653 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1868,15 +1962,15 @@
 	)
 	(symbol
 		(lib_id "fab:Diode_Schottky_MiniSMA")
-		(at 43.18 76.2 0)
+		(at 83.82 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "120f6180-d19d-417e-a76e-914b307ed92d")
-		(property "Reference" "D5"
-			(at 42.8625 69.85 0)
+		(property "Reference" "D1"
+			(at 83.5025 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1884,7 +1978,7 @@
 			)
 		)
 		(property "Value" "1N5817 / shotkey 100mA"
-			(at 45.212 73.152 0)
+			(at 85.852 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +1986,7 @@
 			)
 		)
 		(property "Footprint" "fab:Diode_Schottky_MiniSMA"
-			(at 43.18 76.2 0)
+			(at 83.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +1995,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/c6/32/d4/4a/28/d3/4b/11/CD00004930.pdf/files/CD00004930.pdf/jcr:content/translations/en.CD00004930.pdf"
-			(at 43.18 76.2 0)
+			(at 83.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1910,7 +2004,7 @@
 			)
 		)
 		(property "Description" "Schottky diode with Mini-SMA footprint"
-			(at 43.18 76.2 0)
+			(at 83.82 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +2021,7 @@
 		(instances
 			(project "Auto-UPDI-with-Bilateral-switch"
 				(path "/91a7f030-6019-4ddf-a2e7-43c3c17e46d3"
-					(reference "D5")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1935,7 +2029,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 78.105 22.86 0)
+		(at 186.055 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1944,7 +2038,7 @@
 		(fields_autoplaced yes)
 		(uuid "49fe3d0b-dc24-43ff-92dd-742425322f6a")
 		(property "Reference" "#PWR05"
-			(at 78.105 26.67 0)
+			(at 186.055 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1953,7 +2047,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 78.105 19.05 0)
+			(at 186.055 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1961,7 +2055,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.105 22.86 0)
+			(at 186.055 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1970,7 +2064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.105 22.86 0)
+			(at 186.055 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1979,7 +2073,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.105 22.86 0)
+			(at 186.055 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2095,7 @@
 	)
 	(symbol
 		(lib_id "fab:R_1206")
-		(at 57.15 85.09 90)
+		(at 97.79 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2009,8 +2103,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dc23b1c-d9a3-4852-b139-8c470183ae55")
-		(property "Reference" "R4"
-			(at 57.15 78.74 90)
+		(property "Reference" "R1"
+			(at 97.79 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2018,7 +2112,7 @@
 			)
 		)
 		(property "Value" "499 Ohm"
-			(at 57.15 81.28 90)
+			(at 97.79 124.46 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2026,7 +2120,7 @@
 			)
 		)
 		(property "Footprint" "fab:R_1206"
-			(at 57.15 85.09 90)
+			(at 97.79 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2035,7 +2129,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 57.15 85.09 0)
+			(at 97.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2044,7 +2138,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 57.15 85.09 0)
+			(at 97.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2061,7 +2155,7 @@
 		(instances
 			(project "Auto-UPDI-with-Bilateral-switch"
 				(path "/91a7f030-6019-4ddf-a2e7-43c3c17e46d3"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2069,7 +2163,7 @@
 	)
 	(symbol
 		(lib_id "fab:Switch_Slide_RightAngle_CnK")
-		(at 97.79 68.58 0)
+		(at 194.31 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2078,7 +2172,7 @@
 		(fields_autoplaced yes)
 		(uuid "5732c6d2-536c-464a-bc29-05b51e217fc2")
 		(property "Reference" "SW1"
-			(at 97.79 60.96 0)
+			(at 194.31 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2180,7 @@
 			)
 		)
 		(property "Value" "Switch_Slide_RightAngle_CnK"
-			(at 97.79 63.5 0)
+			(at 194.31 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2094,7 +2188,7 @@
 			)
 		)
 		(property "Footprint" "fab:Switch_Slide_RightAngle_CnK_AYZ0102AGRLC_7.2x3mm"
-			(at 97.79 68.58 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2103,7 +2197,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1431/ayz.pdf"
-			(at 97.79 68.58 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2112,7 +2206,7 @@
 			)
 		)
 		(property "Description" "Slide Switch SPDT Surface Mount, Right Angle"
-			(at 97.79 68.58 0)
+			(at 194.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2140,7 +2234,7 @@
 	)
 	(symbol
 		(lib_id "fab:Conn_PinHeader_FTDI_1x06_P2.54mm_Horizontal_SMD")
-		(at 27.94 33.02 180)
+		(at 90.17 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2148,7 +2242,7 @@
 		(dnp no)
 		(uuid "6519aaf3-d889-4b62-bdad-45ca39e7a1d2")
 		(property "Reference" "J1"
-			(at 25.4635 19.05 0)
+			(at 87.6935 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2156,7 +2250,7 @@
 			)
 		)
 		(property "Value" "1x06_P2.54mm_Horizontal_SMD"
-			(at 16.764 33.02 90)
+			(at 78.994 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,7 +2258,7 @@
 			)
 		)
 		(property "Footprint" "fab:PinHeader_1x06_P2.54mm_Horizontal_SMD"
-			(at 27.94 33.02 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2173,7 +2267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 33.02 0)
+			(at 95.25 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2182,7 +2276,7 @@
 			)
 		)
 		(property "Description" "FTDI header connector, usually used on the target board side"
-			(at 27.94 33.02 0)
+			(at 90.17 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2219,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 41.91 0)
+		(at 96.52 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2228,7 +2322,7 @@
 		(fields_autoplaced yes)
 		(uuid "6806543c-8c3f-4128-af03-c12067509263")
 		(property "Reference" "#PWR08"
-			(at 34.29 48.26 0)
+			(at 96.52 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2237,7 +2331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 46.355 0)
+			(at 96.52 76.835 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2245,7 +2339,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 41.91 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2254,7 +2348,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 41.91 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2263,7 +2357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 41.91 0)
+			(at 96.52 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2379,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 78.74 43.18 0)
+		(at 186.69 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2294,7 +2388,7 @@
 		(fields_autoplaced yes)
 		(uuid "9f1d1518-2db8-4875-a2b2-13e82137c5aa")
 		(property "Reference" "#PWR04"
-			(at 78.74 49.53 0)
+			(at 186.69 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2397,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 47.625 0)
+			(at 186.69 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2405,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 43.18 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 43.18 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 43.18 0)
+			(at 186.69 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2445,7 @@
 	)
 	(symbol
 		(lib_id "fabold:Conn_PinSocket_FTDI_1x06_P2.54mm_Horizontal_SMD")
-		(at 88.9 30.48 0)
+		(at 196.85 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2359,7 +2453,7 @@
 		(dnp no)
 		(uuid "b7006b41-f5c1-4381-b99d-6f5d5c1735c2")
 		(property "Reference" "J2"
-			(at 88.138 42.164 0)
+			(at 196.088 72.644 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2462,7 @@
 			)
 		)
 		(property "Value" "1x06 Pin header 2.54 SMD"
-			(at 96.774 44.196 90)
+			(at 204.724 74.676 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2471,7 @@
 			)
 		)
 		(property "Footprint" "fab:PinSocket_1x06_P2.54mm_Horizontal_SMD"
-			(at 88.9 30.48 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2386,7 +2480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 30.48 0)
+			(at 190.5 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2395,7 +2489,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 88.9 30.48 0)
+			(at 196.85 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2526,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 35.56 19.05 0)
+		(at 97.79 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2441,7 +2535,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb402deb-60f5-4297-8b06-b1f3a4b5833d")
 		(property "Reference" "#PWR09"
-			(at 35.56 22.86 0)
+			(at 97.79 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2544,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 35.56 15.24 0)
+			(at 97.79 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 19.05 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2467,7 +2561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 19.05 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2476,7 +2570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 35.56 19.05 0)
+			(at 97.79 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)

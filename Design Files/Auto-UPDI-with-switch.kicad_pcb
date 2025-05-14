@@ -123,7 +123,7 @@
 	(net 3 "GND")
 	(net 4 "VCC")
 	(net 5 "RX")
-	(net 6 "DTR")
+	(net 6 "unconnected-(J1-Pad6)")
 	(net 7 "UPDI")
 	(net 8 "T-RX")
 	(net 9 "unconnected-(J2-Pad1)")
@@ -611,8 +611,8 @@
 			(at 0 12.7 180)
 			(size 2.5 1.7)
 			(layers "F.Cu" "F.Mask" "F.Paste")
-			(net 6 "DTR")
-			(pintype "passive")
+			(net 6 "unconnected-(J1-Pad6)")
+			(pintype "passive+no_connect")
 			(uuid "9970f5db-9844-4226-a535-e17a818558c0")
 		)
 		(embedded_fonts no)
@@ -635,7 +635,7 @@
 		(descr "http://www.ckswitches.com/media/1422/js.pdf")
 		(tags "switch spdt right angle slide")
 		(property "Reference" "SW1"
-			(at 0 -4.3 0)
+			(at -3.4925 -4.3 0)
 			(layer "F.SilkS")
 			(uuid "a377067c-65fb-4e3b-a536-fe917825048a")
 			(effects
@@ -990,7 +990,7 @@
 			(uuid "ff891740-74d3-4638-8444-a5910f1f152a")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Buttons_Switches_SMD.3dshapes/SW_SPDT_CK-JS102011SAQN.wrl"
+		(model "C:/kicad/libraries/kicad/fab.3dshapes/AYZ0102AGRLC.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -998,7 +998,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 0 0)
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -1009,7 +1009,7 @@
 		(descr "Pin socket, 2.54mm pitch, horizontal, surface mount")
 		(tags "horizontal pin header SMD 2.54mm")
 		(property "Reference" "J2"
-			(at 3.73 6.3 180)
+			(at 4.365 6.3 180)
 			(layer "F.SilkS")
 			(uuid "9629d6df-87f7-4693-864f-a99e62a56dfe")
 			(effects
@@ -1256,6 +1256,17 @@
 			(uuid "e9141e70-0b5c-4891-b6de-3d18f4c9b722")
 		)
 		(embedded_fonts no)
+		(model "C:/kicad/libraries/kicad/fab.3dshapes/PinSocket-01x06_P2.54mm_Horizontal_SMD.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "fab:Diode_Schottky_MiniSMA"
 		(layer "F.Cu")
@@ -1263,8 +1274,8 @@
 		(at 92.075 82.55 180)
 		(descr "Mini-SMA  Schottky diode footprint")
 		(tags "Mini-SMA schottky diode")
-		(property "Reference" "D5"
-			(at 0 0 0)
+		(property "Reference" "D1"
+			(at 1.905 1.905 0)
 			(layer "F.SilkS")
 			(uuid "cd4f9331-d316-4924-adca-34d4c18e003d")
 			(effects
@@ -1313,7 +1324,7 @@
 		(path "/120f6180-d19d-417e-a76e-914b307ed92d")
 		(sheetname "/")
 		(sheetfile "Auto-UPDI-with-switch.kicad_sch")
-		(attr through_hole)
+		(attr smd)
 		(fp_line
 			(start -1.75 1.25)
 			(end 1.75 1.25)
@@ -1404,6 +1415,17 @@
 			(uuid "2fb66f2a-9f49-4eb1-aee9-f671486131c1")
 		)
 		(embedded_fonts no)
+		(model "C:/kicad/libraries/kicad/fab.3dshapes/Diode-Schottky-SOD123.step"
+			(offset
+				(xyz 0 0 0.7)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "fab:R_1206"
 		(layer "F.Cu")
@@ -1411,8 +1433,8 @@
 		(at 92.075 87.63)
 		(descr "Resistor SMD 1206, hand soldering")
 		(tags "resistor 1206")
-		(property "Reference" "R4"
-			(at 0 0 0)
+		(property "Reference" "R1"
+			(at -1.905 -1.905 0)
 			(layer "F.SilkS")
 			(uuid "367bb84b-6d0b-4137-ab62-3792bb95bce5")
 			(effects
